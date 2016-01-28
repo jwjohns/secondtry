@@ -125,8 +125,8 @@
 	    	//of the locations to be uploaded. I have ideas but suspect an easish way you may 
 	    	//know of.
 
-
-	    	// center marker on first location with a wide zoom? 
+			// center marker on first location with a wide zoom? 
+	      
 	      center: {lat: 39.500227, lng: -106.0431},
 	      zoom: 15
 	    });

@@ -17,7 +17,7 @@ foreach ($csvAsArray as $key => $value) {
 	// implode the address into one string
 	$address = implode(" ",$value);
 	// send to google maps geocode api
-	// flawed as right now the HEX color code is on the end of the scrip
+	// flawed as right now the HEX color code is on the end of the imploded string
 	$coords = getLatLong($address);
 	// add the return values to the $gps array for return to the initial page
 	array_push($gps, $coords );
